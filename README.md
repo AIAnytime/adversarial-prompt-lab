@@ -6,8 +6,6 @@ the lethal trifecta, RAG/memory poisoning, zero-click exfiltration, and more. Ea
 is a concept explainer **plus a live sandbox agent** you attack with your own API key —
 then flip a "Defense" switch and watch the same attack fail.
 
-Built for a YouTube audience: explain, then *show it actually happening* against a real model.
-
 ## Run it
 
 It's static files — no build step, no backend. But **don't open `index.html` with `file://`**
@@ -32,13 +30,6 @@ Any static server works (`npx serve`, VS Code Live Server, etc.).
 
 The key lives in your browser's `localStorage` and is sent **only** to the provider you
 picked — check your network tab. There is no server in this project.
-
-## Deploy (make it public)
-
-It's static, so anything works:
-
-- **Vercel / Netlify / Cloudflare Pages / GitHub Pages** — point at this folder, no build command, output = root.
-- The end user brings their **own** key at runtime, so you ship **no** secrets.
 
 ## Security notes
 
