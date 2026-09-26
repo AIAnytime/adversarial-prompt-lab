@@ -51,3 +51,7 @@ js/app.js         routing, theme toggle, settings, the lab runner
 ```
 
 Built by AI Anytime with ❤️
+
+## License
+
+Proprietary — all rights reserved. This code is published for viewing and evaluation only; no use, copying, modification, redistribution, commercial use, or use as AI/ML training data without written permission. See [LICENSE](LICENSE). Commercial licensing: aianytime07@gmail.com · sonu@aianytime.net.
